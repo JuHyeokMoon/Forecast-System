@@ -7,6 +7,18 @@
 3. 딥러닝 모델을 위한 전처리 수행
 4. 딥러닝 모델 학습 및 예측
 
+# 파일 설명
+* darts_main.py (+ darts_main.sh 실행스크립트)
+  > 모델 학습&예측, 데이터 가공
+* darts_pre_process.py (+ darts_pre_process.sh 실행스크립트)
+  > 데이터 마트에서 학습 데이터 수집 및 전처리
+* darts_post_process.py (+ darts_post_process.sh 실행스크립트)
+  > 매장 별로 상이한 입고일을 기준으로 예측 결과 가공
+* darts_verification.py (+ darts_verification.sh 실행스크립트)
+  > 주 단위 검증 프로세스
+* Batch.sh
+  > 각 프로세스들의 전체 실행 스크립트
+
 # 특이 사항
 1. 낮은 품질의 데이터
    > TF팀을 구성하여 데이터 정합성 신뢰도 확보
