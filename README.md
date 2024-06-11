@@ -16,6 +16,8 @@
   > 매장 별로 상이한 입고일을 기준으로 예측 결과 가공
 * darts_verification.py (+ darts_verification.sh 실행스크립트)
   > 주 단위 검증 프로세스
+* file_management.sh
+  > 과거 데이터 제거 관련 실행 스크립트
 * Batch.sh
   > 각 프로세스들의 전체 실행 스크립트
 
